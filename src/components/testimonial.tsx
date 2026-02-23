@@ -1,6 +1,6 @@
 import React from 'react'
 
-const testimonial = () => {
+const Testimonial = () => {
     return (
         <section className="section_testimonials">
             <div className="padding-global">
@@ -198,4 +198,4 @@ const testimonial = () => {
     )
 }
 
-export default testimonial
+export default Testimonial
