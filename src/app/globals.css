@@ -1,5 +1,6 @@
 @import "tailwindcss";
 
+/* Webflow compatibility styles */
 .wf-force-outline-none[tabindex="-1"]:focus {
   outline: none;
 }
@@ -32,12 +33,15 @@ html.w-mod-js:not(.w-mod-ix3) :is([animation="img-hero"], [animation="arrow-gree
   visibility: hidden !important;
 }
 
+/* Base styles */
+* {
+  box-sizing: border-box;
+}
 
 /* Make text look crisper and more legible in all browsers */
 body {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  font-smoothing: antialiased;
   text-rendering: optimizeLegibility;
 }
 
@@ -100,6 +104,7 @@ a,
   display: -webkit-box;
   overflow: hidden;
   -webkit-line-clamp: 3;
+  line-clamp: 3;
   -webkit-box-orient: vertical;
 }
 
@@ -108,6 +113,7 @@ a,
   display: -webkit-box;
   overflow: hidden;
   -webkit-line-clamp: 2;
+  line-clamp: 2;
   -webkit-box-orient: vertical;
 }
 
