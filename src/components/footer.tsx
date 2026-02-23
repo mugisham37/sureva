@@ -1,6 +1,6 @@
 import React from 'react'
 
-const footer = () => {
+const Footer = () => {
     return (
         <section className="section_footer">
             <div className="padding-section-medium"></div>
@@ -200,4 +200,4 @@ const footer = () => {
     )
 }
 
-export default footer
+export default Footer
